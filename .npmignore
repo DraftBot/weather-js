@@ -1,0 +1,10 @@
+.*
+**/.*
+tests/
+commitlinit.config.js
+jest.config.js
+src
+tsconfig.json
+yarn.lock
+node_modules
+*.log
