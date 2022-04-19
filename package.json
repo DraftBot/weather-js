@@ -1,7 +1,7 @@
 {
   "name": "weather-js",
-  "version": "2.0.0",
-  "description": "A module for obtaining weather information",
+  "version": "1.0.0",
+  "description": "Optimised module for obtaining weather information without ratelimits",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "typings": "./lib/index.d.ts",
