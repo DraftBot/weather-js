@@ -8,7 +8,8 @@ information.
 
 - Typescript
 - Promises only
-- Speed parsing ()
+- Speed parsing
+  ([fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser#xml-parser))
 - No archived deps :')
 - No ratelimits
 
