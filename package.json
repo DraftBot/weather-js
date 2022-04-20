@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "fast-xml-parser": "^4.0.7",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
