@@ -1,4 +1,4 @@
-# Weather-js
+# DraftBot-Weather
 
 Module inspired by the archived
 [weather-js](https://github.com/devfacet/weather) module to obtain weather
@@ -16,13 +16,13 @@ information.
 ## Installation
 
 ```bash
-npm install https://github.com/DraftBot/weather-js
+npm install @draftbot/weather
 ```
 
 ## Usage
 
 ```javascript
-const { findWeather } = require('weather-js');
+const { findWeather } = require('@draftbot/weather');
 
 // Options:
 // lang: Language code (default to: fr-FR)
@@ -33,7 +33,7 @@ console.log(JSON.stringify(weather, null, 2));
 ```
 
 ```typescript
-import { findWeather }, WeatherOptions from 'weather-js';
+import { findWeather }, WeatherOptions from '@draftbot/weather';
 
 const weather: WeatherData[] = await findWeather('Montpellier', {
   degreeType: 'C',

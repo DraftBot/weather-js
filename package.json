@@ -1,5 +1,5 @@
 {
-  "name": "weather-js",
+  "name": "@draftbot/weather",
   "version": "1.0.0",
   "description": "Optimised module for obtaining weather information without ratelimits",
   "main": "./lib/index.js",
@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DraftBot/weather-js.git"
+    "url": "https://github.com/DraftBot/weather.git"
   },
   "bugs": {
-    "url": "https://github.com/DraftBot/weather-js/issues"
+    "url": "https://github.com/DraftBot/weather/issues"
   },
-  "homepage": "https://github.com/DraftBot/weather-js#readme",
+  "homepage": "https://github.com/DraftBot/weather#readme",
   "publishConfig": {
     "access": "public"
   }
