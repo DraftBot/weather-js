@@ -6,7 +6,8 @@ const parser = new XMLParser({
   attributeNamePrefix: '',
   parseTagValue: true,
   ignoreDeclaration: true,
-  ignorePiTags: true
+  ignorePiTags: true,
+  isArray: (_name, jpath) => jpath === 'weatherdata.weather'
 });
 
 const BASE_URL = 'http://weather.service.msn.com/find.aspx';
@@ -86,10 +87,6 @@ export async function findWeather(
   const weatherData = data?.weatherdata?.weather;
 
   if (!weatherData) return [];
-
-  if (weatherData.errormessage) {
-    throw new Error('API Error message : ' + weatherData.errormessage);
-  }
 
   if (!(weatherData instanceof Array)) {
     throw new Error('Missing weather info');

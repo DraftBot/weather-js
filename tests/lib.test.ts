@@ -42,7 +42,7 @@ describe('weather', () => {
 
       expect.assertions(1);
 
-      const data = await findWeather('San Francisco, CA', { degreeType: 'F' });
+      const data = await findWeather('Sens', { degreeType: 'F' });
 
       expect(data).toEqual(schema);
     });
