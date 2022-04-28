@@ -64,7 +64,7 @@ export async function findWeather(
   search: string,
   options: WeatherOptions = {}
 ): Promise<WeatherData[]> {
-  options = Object.assign({}, options, defaultOptions);
+  options = Object.assign({}, defaultOptions, options);
 
   if (!search) {
     throw new Error('Missing search argument');
@@ -72,7 +72,8 @@ export async function findWeather(
 
   const requestUrl =
     BASE_URL +
-    `?src=outlook&weadegreetype=${options.degreeType}` +
+    `?src=outlook` +
+    `&weadegreetype=${options.degreeType}` +
     `&culture=${options.lang}` +
     `&weasearchstr=${encodeURIComponent(search)}`;
 
