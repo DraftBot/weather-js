@@ -1,6 +1,6 @@
 {
   "name": "@draftbot/weather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Optimised module for obtaining weather information without ratelimits",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
